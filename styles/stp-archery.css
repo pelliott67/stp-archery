@@ -1,4 +1,116 @@
-body {
+/* http://www.onextrapixel.com/2013/10/25/40-stunning-website-designs-with-great-color-schemes/ "Kikk festival" scheme */
+/* background: #D1C5B7; light br: #896541; dark b4: #735D41; light bl: #0193B7; #063E53*/
+
+.pe-global-styles {
+    font-family: "Segoe UI Light", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+.pe-clear {
+    clear: both;
+}
+
+/******************* HEADER STYLES ********************************************/
+.pe-header {
+    height: 50px;
+    background: #063E53; /*#735D41;*/
+    text-align: center;
+    vertical-align: middle;        
+}
+
+.pe-header img {
+    height: 50px;
+    width: 50px; 
+    display: inline;
+    background: #735D41;
+    padding: 0;
+}
+
+.pe-header h1 {
+    font-family: Tahoma, sans-serif;
+    display: inline;
+    font-weight: normal;
+    color: #FFF;
+}
+/********************** MAIN CONTENT COLUMN STYLES *****************************/
+.pe-content-wrapper {
+    float: left;
+    width: 100%;
+    background: #D1C5B7;
+}
+
+.pe-content-column {
+    margin-left: 250px;
+    padding: 45px;
+    background: #D1C5B7;
+}
+
+.pe-instructor-bio {
+    float: left;
+    border: 1px solid black;
+    width: 700px;
+}
+
+.pe-instructor img {
+    float: left;
+    height: 180px;
+    width: 240px;
+}
+/******************* NAV COLUMN STYLES ****************************************/
+.pe-nav-column {
+    float: left;
+    width: 250px; /*Width of left column*/
+    margin-left: -100%;
+    padding: 55px 0 50px 30px;
+    background: #D1C5B7;
+}
+
+.pe-nav-column ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+}
+
+.pe-nav-column li {
+    border-bottom: 1px solid #90bade;
+    margin: 0;
+}
+
+.pe-nav-column li a {
+    display: block;
+    padding: 5px 5px 5px 8px;
+    border-left: 10px solid #1958b7;
+    border-right: 10px solid #508fc4;
+    background-color: #063E53;/*#2175bc;*/
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+
+.pe-nav-column li a:hover {
+    border-left: 10px solid #1c64d1;
+    border-right: 10px solid #5ba3e0;
+    background-color: #0193B7; /*#2586d7;*/
+    color: #fff;
+}
+
+.pe-address {
+    margin-top: 100px;
+}
+
+/************************* FOOTER STYLES *************************************/
+.pe-footer {
+    width: 100%;
+    text-align: center;
+    background: #735D41;
 }
