@@ -1,0 +1,142 @@
+   
+/*CSS reset*/
+html, body, p, div, nav, header, footer, article, section, img, h1, h2, h3, li, ul {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: rgb(240, 241, 243);
+}
+
+body {
+	font-family: Cambria, Arial, Helvetica, sans-serif;
+	box-shadow: 0 0.3em 1em #000;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Cambria, Arial, Helvetica, sans-serif;
+	font-weight: 200;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.tn-featured h2 {
+	margin-bottom: .5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Clear fix*/
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+
+.cf:after {
+	clear:both;
+}
+
+/*header styles*/
+header.tn-page-header {
+	background: rgb(82, 62, 51 );
+	border-radius: 0 3em 3em 0;
+}
+
+header hgroup {
+	color: rgb(147, 199, 63);
+	padding-top: 2em;
+	padding-left: 2em;
+}
+
+header hgroup h2 {
+	font-style: italic;
+	position: relative;
+	left: 7.4em;
+}
+
+/*navigation styles*/
+.tn-page-nav ul {
+	margin-bottom: 2em;
+	list-style:none;
+}
+
+.tn-page-nav ul li a {
+	display: block;
+	width: 9em;
+	line-height: 2em;
+	background: rgb(82, 62, 51);
+	color: rgb(147, 199, 63);
+	padding: .2em 0 .2em .16em;
+	border-bottom: .125em solid white;
+}
+
+.tn-page-nav ul li a:hover {
+	background: rgb(213, 230, 184);
+	color: rgb(82, 62, 51);
+	border-left: .18em solid rgb(82, 62, 51);
+	font-size: 1.02em;
+	border-radius: 0 .7em .7em 0;
+}
+
+.tn-page-nav ul li:last-child a {
+	border-bottom: none;
+}
+
+address {
+	position: relative;
+	top: -1.5em;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+/*article styles*/
+article.tn-featured {
+	padding-left: 2em;
+}
+
+div.wrap {
+	width: 28em;
+	text-align: justify;
+}
+
+p.margin-bottom {
+	margin-bottom: .9em;
+}
+
+.drop-cap p:first-of-type:first-letter {
+	float: left;
+	font-size: 2em;
+	margin: 0 2px 0;
+	line-height: .5;	
+}
+
+/*--video section styles--*/
+.tn-video {
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+.tn-video h3 {
+	margin-bottom: .5em;
+	font-size: 1.5em;
+}
+
+/*footer styles*/
+footer {
+	padding: 1em 2em;
+	height: 1.5em;
+	text-align: center;
+	background: rgb(82, 62, 51);
+	border-radius: 3em;
+}
+
+footer p {
+	line-height: 1.5em;
+	font-weight: 100;
+	color: rgb(147, 199, 63);
+}

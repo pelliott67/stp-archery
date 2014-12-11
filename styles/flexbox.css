@@ -1,0 +1,64 @@
+/*flexbox layout styles*/
+body {
+	width: 80%;
+	margin: 0 auto;
+	padding: .5em;
+	margin-top: .5em;
+}
+
+/*header styles*/
+header.tn-page-header {
+	display: flex;
+	display: -ms-flexbox;
+	margin-bottom: 1em;
+}
+
+.tn-page-image {
+	flex: 1;
+}
+
+header hgroup {
+	flex: 6;
+}
+
+/*main section styles*/
+section.main {
+	display: flex;
+	flex-wrap: wrap;
+	display: -ms-flexbox;
+	margin-bottom: 2em;
+}
+
+.tn-page-nav {
+	flex: 1;
+}
+
+.tn-featured {
+	flex: 6;
+}
+
+.tn-nest {
+	display:flex;
+	display: -ms-flexbox;
+	flex-flow: row;
+	-ms-flex-flow: row;
+	flex-wrap: wrap;
+}
+
+.tn-nest-featured {
+	display: flex;
+	flex-wrap: wrap;
+	display: -ms-flexbox;
+}
+
+div.wrap {
+	flex: 2;
+}
+
+div.tn-right {
+	flex: 1;
+	margin-left: 1.5em;
+	position: relative;
+	top: 4em;
+}
+
