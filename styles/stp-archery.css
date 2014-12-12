@@ -54,16 +54,19 @@
     background: #D1C5B7;
 }
 
+.pe-instructor {
+    width: 80%;
+}
+
 .pe-instructor-bio {
-    float: left;
-    border: 1px solid black;
-    width: 700px;
+    position: relative;
 }
 
 .pe-instructor img {
-    float: left;
+    float: right;
     height: 180px;
     width: 240px;
+    margin-left: 20px;
 }
 /******************* NAV COLUMN STYLES ****************************************/
 .pe-nav-column {
